@@ -8,14 +8,10 @@ Low level programming with C
 ### 
 #### Script that runs a C file through the preprocessor and save the result into another file.
 > gcc $CFILE -E -o c
-###
-![0. Preprocessor](https://github.com/Cocorine/alx-system_engineering-devops/blob/main/resources/permissions/0-iam_betty.png)
 
 ### 
-#### Script that prints the effective username of the current user.
-> whoami
-###
-![My name is Betty](https://github.com/Cocorine/alx-system_engineering-devops/blob/main/resources/permissions/1-who_am_i.png)
+#### Script that compiles a C file but does not link.
+> gcc -c $CFILE
 
 ### 
 #### Script that prints all the groups the current user is part of.
