@@ -1,18 +1,15 @@
 
-# Shell permissions
-DevOps shell permissions workspace
+# 0x00. C - Hello, World
+Low level programming with C
 
-### About Bash permissions commands
+### About C programming
 ### 
 
 ### 
-#### Script that switches the current user to the user betty.
+#### Script that runs a C file through the preprocessor and save the result into another file.
 > adduser betty
-> su betty 
-or
-> sudo su betty
 ###
-![My name is Betty](https://github.com/Cocorine/alx-system_engineering-devops/blob/main/resources/permissions/0-iam_betty.png)
+![0. Preprocessor](https://github.com/Cocorine/alx-system_engineering-devops/blob/main/resources/permissions/0-iam_betty.png)
 
 ### 
 #### Script that prints the effective username of the current user.
