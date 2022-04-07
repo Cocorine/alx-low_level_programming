@@ -7,7 +7,7 @@ Low level programming with C
 
 ### 
 #### Script that runs a C file through the preprocessor and save the result into another file.
-> adduser betty
+> gcc $CFILE -E -o c
 ###
 ![0. Preprocessor](https://github.com/Cocorine/alx-system_engineering-devops/blob/main/resources/permissions/0-iam_betty.png)
 
