@@ -12,11 +12,13 @@ while (c <= '9')
 {
 if ( c == 9)
 {
-putchar(c+'$');
+putchar(c);
+putchar('$');
 }
 else
 {
-putchar(c+', ');
+putchar(c);
+putchar(', ');
 }
 c++;
 }
