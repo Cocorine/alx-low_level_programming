@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-char c = 'a'
-for (; c <= 'z';){
+char c = 'a';
+while (c <= 'z'){
 putchar(c);
 c++
 }
