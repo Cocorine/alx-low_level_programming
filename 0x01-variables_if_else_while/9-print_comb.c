@@ -18,7 +18,8 @@ putchar('$');
 else
 {
 putchar(c);
-putchar(', ');
+putchar(',');
+putchar(' ');
 }
 c++;
 }
