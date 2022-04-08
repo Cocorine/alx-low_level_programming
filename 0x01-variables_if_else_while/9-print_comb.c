@@ -7,17 +7,12 @@
  */
 int main(void)
 {
-char c = '0';
-while (c <= '9')
+char c = 0;
+while (c <= 9)
 {
-if ( c == 9)
+putchar(48 + c);
+if ( c != 9)
 {
-putchar(c);
-putchar('$');
-}
-else
-{
-putchar(c);
 putchar(',');
 putchar(' ');
 }
