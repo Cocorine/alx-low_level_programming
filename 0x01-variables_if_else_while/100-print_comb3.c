@@ -14,7 +14,7 @@ while (c <= 9)
 i = 0;
 while (i <= 9)
 {
-if ( c != i && c < i)
+if (c != i && c < i)
 {
 putchar('0' + c);
 putchar('0' + i);
