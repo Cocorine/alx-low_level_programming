@@ -18,7 +18,7 @@ if (c != i && c < i)
 {
 putchar('0' + c);
 putchar('0' + i);
-if (c + i != 89)
+if (c + i != 17)
 {
 putchar(',');
 putchar(' ');
