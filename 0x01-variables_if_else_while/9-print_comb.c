@@ -7,18 +7,6 @@
  */
 int main(void)
 {
-int c = 0;
-while (c <= 9)
-{
-int i = 1;
-while (i <= 9)
-{
-putchar(',');
-putchar(' ');
-i++;
-}
-c++;
-}
 putchar('\n');
 return (0);
 }
