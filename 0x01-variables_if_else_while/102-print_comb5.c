@@ -7,32 +7,37 @@
  */
 int main(void)
 {
-int abs = 0;
-int ord;
-while (abs <= 98)
+int c = 0;
+int f_d;
+int l_d;
+int c2;
+int f_d2;
+int l_d2;
+while (c <= 98)
 {
-ord = 0;
-while (ord <= 99)
+f_d = (c / 10 + '0');
+l_d = (c % 10 + '0');
+c2 = 0;
+while (c2 <= 99)
 {
-if (abs < 10)
+f_d2 = (c2 / 10 + '0');
+l_d2 = (c2 % 10 + '0');
+if (c < c2)
 {
-putchar('0');
-}
-putchar('0' + abs);
+putchar(f_d);
+putchar(l_d);
 putchar(' ');
-if (ord < 10)
-{
-putchar('0');
-}
-putchar('0' + ord);
-if (abs != 98 && ord != 99)
+putchar(f_d2);
+putchar(l_d2);
+if (c != 98)
 {
 putchar(',');
 putchar(' ');
 }
-ord++;
 }
-abs++;
+c2++;
+}
+c++;
 }
 putchar('\n');
 return (0);
