@@ -13,7 +13,6 @@ while (c <= 9)
 int i = 1;
 while (i <= 9)
 {
-putchar(48 + c);
 putchar(48 + i);
 putchar(',');
 putchar(' ');
