@@ -18,13 +18,13 @@ if (abs < 10)
 {
 putchar('0');
 }
-putchar(48 + abs);
+putchar('0' + abs);
 putchar(' ');
 if (ord < 10)
 {
 putchar('0');
 }
-putchar(48 + ord);
+putchar('0' + ord);
 if (abs != 98 && ord != 99)
 {
 putchar(',');
