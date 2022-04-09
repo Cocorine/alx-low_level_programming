@@ -7,21 +7,18 @@
  */
 int main(void)
 {
-int c = 0;
-int i;
-while (c <= 9)
+int c = 1;
+while (c <= 99)
 {
-i = 0;
-while (i <= 9)
+if (c < 10)
 {
-if ( c != i && c < i)
+putchar('0');
+}
+putchar(48 + c);
+if (c != 99)
 {
-putchar('0' + c);
-putchar('0' + i);
 putchar(',');
 putchar(' ');
-}
-i++;
 }
 c++;
 }
