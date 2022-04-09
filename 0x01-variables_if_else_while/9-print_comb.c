@@ -8,14 +8,14 @@
 int main(void)
 {
 int c = 1;
-while (c <= 99)
+while (c <= 9)
 {
 if (c < 10)
 {
 putchar('0');
 }
 putchar(48 + c);
-if (c != 99)
+if (c != 9)
 {
 putchar(',');
 putchar(' ');
