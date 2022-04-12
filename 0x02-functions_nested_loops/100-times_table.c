@@ -17,12 +17,16 @@ for (i = 0; i <= n; i++)
 int val = 0;
 for (j = 0; j <= n; j++)
 {
-printf("%d,   ", val);
+printf("%d", val);
 /**
  * _putchar(val + '0'); 
  */
 if (j != n)
 {
+printf(",");
+printf(" ");
+printf(" ");
+printf(" ");
 /**
  *_putchar(',');
  *_putchar(' ');
