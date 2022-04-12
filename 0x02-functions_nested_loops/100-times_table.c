@@ -17,18 +17,29 @@ for (i = 0; i <= n; i++)
 int val = 0;
 for (j = 0; j <= n; j++)
 {
-_putchar(val + '0');
+printf("%d,   ", val);
+/**
+ * _putchar(val + '0'); 
+ */
 if (j != n)
 {
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar(' ');
+/**
+ *_putchar(',');
+ *_putchar(' ');
+ *_putchar(' ');
+ *_putchar(' ');
+ */
 val += i;
 }
 }
-_putchar('\n');
+/**
+ *_putchar('\n');
+ */
+printf("\n");
 }
 }
-_putchar('\n');
+printf("\n");
+/**
+ * _putchar('\n');
+ */
 }
