@@ -13,6 +13,7 @@ int main(void)
 		if ((i % 3) == 0 || (i % 5) == 0)
 			result += i;
 	}
-	printf("%d\n", result);
+	printf("%d", result);
+	printf("\n");
 	return (0);
 }
