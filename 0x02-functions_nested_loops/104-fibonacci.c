@@ -11,7 +11,10 @@ int main(void)
 	long double fn2;
 	long double suite = 1;
 	int i = 2;
+
+	suite = f0 + f1;
 	f1 = f0;
+
 	while (i < 100)
 	{
 		fn2 = suite;
