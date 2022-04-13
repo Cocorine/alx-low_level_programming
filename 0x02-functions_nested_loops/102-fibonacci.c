@@ -13,7 +13,7 @@ int main(void)
 	long int fn2, suite;
 
 	suite = f0 + f1;
-	printf("%ld", suite);
+	printf("%ld, ", suite);
 	f1 = f0;
 	while (i <= 50)
 	{
