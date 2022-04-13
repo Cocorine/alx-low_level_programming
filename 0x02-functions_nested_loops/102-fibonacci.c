@@ -14,13 +14,13 @@ int main(void)
 
 	suite = f0 + f1;
 	f1 = f0;
-	while (i < 50)
+	while (i < 52)
 	{
 		fn2 = suite;
 		suite = suite + f1;
 		printf("%ld", suite);
 		f1 = fn2;
-		if (i != 50)
+		if (i < 51)
 			printf(", ");
 		i++;
 	}
