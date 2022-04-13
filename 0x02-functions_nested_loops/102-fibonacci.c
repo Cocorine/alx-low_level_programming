@@ -22,9 +22,8 @@ int main(void)
 		suite = suite + f1;
 		printf("%ld", i, fn2, f1, suite);
 		f1 = fn2;
-		if( i != 50 ){
+		if (i != 50)
 			printf(", ");
-		}
 		i++;
 	}
 	printf("\n");
