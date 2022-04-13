@@ -1,10 +1,11 @@
 #include "main.h"
 /**                                                                                                                                            
- * print_times_table - a function that prints the n times table, starting with                                                                                                                                             
- * user input's number prints to 15, regardless <= 15 or >= 0                                                                                  
- * @n: number input                                       
- * Return: Always 0 (Success)                                                                                                                  
- */  
+ * print_times_table - a function that prints the n times table
+ * starting with user input's number prints to 15
+ * regardless <= 15 or >= 0                                                                                  
+ * @n: number input                             
+ * Return: Always 0 (Success)                                                                                                           
+ */
 void print_times_table(int n)
 {
 	if (n >= 0 && n <= 15)
@@ -17,7 +18,7 @@ void print_times_table(int n)
 			{
 				_putchar(val + '0');
 
-				if ( j != n)
+				if (j != n)
 				{
 					_putchar(',');
 					_putchar(' ');
