@@ -10,7 +10,8 @@ int main(void)
 	long double f0 = 0;
 	long double f1 = 1;
 	int i = 2;
-	long double fn2, suite;
+	long double fn2;
+	long double suite;
 	suite = f0 + f1;
 	f1 = f0;
 
