@@ -7,7 +7,7 @@
 int main(void)
 {
 
-	int f0, suite, result = 0; 
+	int f0, suite, result = 0;
 
 	int f1 = 1;
 
