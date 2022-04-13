@@ -8,9 +8,9 @@ int main(void)
 {
 
 	int f0 = 0;
-	long long int f1 = 1;
+	float f1 = 1;
 	int i = 2;
-	long long int fn2, suite;
+	float fn2, suite;
 
 	suite = f0 + f1;
 	f1 = f0;
@@ -18,11 +18,11 @@ int main(void)
 	{
 		fn2 = suite;
 		suite = suite + f1;
-		printf("%lld", suite);
+		printf("%.0f", suite);
 		f1 = fn2;
+		i++;
 		if (i < 100)
 			printf(", ");
-		i++;
 	}
 	printf("\n");
 	return (0);
