@@ -7,9 +7,13 @@
 int main(void)
 {
 
-	int f0, result = 0;
-	int f1, suite = 1;
+	int f0, suite, result = 0; 
+
+	int f1 = 1;
+
 	int i = 2;
+
+	suite = f1;
 
 	while (suite < 4000000)
 	{
@@ -26,6 +30,9 @@ int main(void)
 	}
 
 	printf("%d", result);
+
 	printf("\n");
+
 	return (0);
+
 }
