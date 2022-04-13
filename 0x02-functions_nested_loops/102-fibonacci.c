@@ -10,7 +10,7 @@ int main(void)
 	int f0 = 0;
 	long int f1 = 1;
 	int i = 2;
-	long int inter, suite;
+	long int fn2, suite;
 
 	suite = f0 + f1;
 	printf("f(1) = %ld", suite);
