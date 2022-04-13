@@ -13,11 +13,10 @@ int main(void)
 	long int fn2, suite;
 
 	suite = f0 + f1;
-	printf("f(1) = %ld", suite);
+	printf("%ld", suite);
 	f1 = f0;
 	while (i <= 50)
 	{
-		printf("\n");
 		fn2 = suite;
 		suite = suite + f1;
 		printf("%ld", suite);
