@@ -19,7 +19,7 @@ int main(void)
 	{
 		fn2 = suite;
 		suite = suite + f1;
-		printf("%Lf", suite);
+		printf("%0.Lf", suite);
 		f1 = fn2;
 		i++;
 		if (i < 100)
