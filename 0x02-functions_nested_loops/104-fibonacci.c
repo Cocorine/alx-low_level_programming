@@ -9,9 +9,8 @@ int main(void)
 	long double f0 = 0;
 	long double f1 = 1;
 	long double fn2;
-	long double suite;
+	long double suite = 1;
 	int i = 2;
-	suite = f0 + f1;
 	f1 = f0;
 	while (i < 100)
 	{
