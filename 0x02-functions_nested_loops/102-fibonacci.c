@@ -20,7 +20,7 @@ int main(void)
 		printf("\n");
 		fn2 = suite;
 		suite = suite + f1;
-		printf("%ld", i, fn2, f1, suite);
+		printf("%ld", suite);
 		f1 = fn2;
 		if (i != 50)
 			printf(", ");
