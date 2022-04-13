@@ -1,19 +1,26 @@
 #include "main.h"
 /**
-* print_times_table - prints the n times table
+ * print_long - prints value
+ * @value: number input
+ * Return: void (Success)
+ */
+
+void print_long(long value)
+{
+	if (value > 0)
+	{
+		print_long(value / 10);
+		_putchar((value % 10) + '0');
+	}
+}
+
+/**
+ * print_times_table - prints the n times table
  * starting with user input's number
  * prints to 15 regardless <= 15 or >= 0
  * @n: number input
  * Return: Always 0 (Success)
  */
-
-void print_long(long value) {
-    if(value > 0) 
-	{
-      	print_long(value / 10);
-      	_putchar((value % 10) + '0');
-    }
-}
 
 void print_times_table(int n)
 {
