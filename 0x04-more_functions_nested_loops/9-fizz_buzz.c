@@ -29,7 +29,7 @@ printf("Fizz");
 }
 else
 {
-printf("%d", + i);
+printf("%d", i);
 }
 i++;
 if (i != 101)
