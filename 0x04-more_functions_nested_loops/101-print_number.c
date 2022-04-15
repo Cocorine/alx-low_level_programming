@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_long - prints value
+ * print_long - prints an integer.
  * @value: number input
  * Return: void (Success)
  */
 
-void print_long(long value)
+void print_long(int value)
 {
 	if (value > 0)
 	{
