@@ -1,33 +1,27 @@
 #include "main.h"
-/**
- * print_long - prints an integer.
- * @value: number input
- * Return: void (Success)
- */
-
-void print_long(int value)
-{
-	if (value > 0)
-	{
-		print_long(value / 10);
-		_putchar((value % 10) + '0');
-	}
-}
 
 /**
- * print_number -prints an integer.
- * @n: int value
- * Return: Always 0 (Success)
+ * print_number - prints an integer
+ * @n: integer to be printed
  */
-
 void print_number(int n)
 {
+unsigned int n1;
+
 if (n < 0)
 {
-n = n * -1;
+n1 = -n;
 _putchar('-');
 }
-print_long(n / 10);
-_putchar((n % 10) + '0');
-_putchar('\n');
+else
+{
+n1 = n;
+}
+
+if (n1 / 10)
+{
+print_number(n1 / 10);
+}
+
+_putchar((n1 % 10) + '0');
 }
