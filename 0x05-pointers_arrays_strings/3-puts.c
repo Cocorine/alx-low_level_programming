@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - prints a string
+ * _puts - prints a string
  * @str: parameter
  *
  * Description - A function that prints a string
