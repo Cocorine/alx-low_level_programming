@@ -1,0 +1,18 @@
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main_0.c 101-print_number.c -o 101-print_numbers 
+
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main_0.c 0-reset_to_98.c -o reset_to_98 
+
+
+/**
+ * main_0 - check the code reset_to_98.
+ *
+ * Return: Always 0.
+ */
+void main_0(void)
+{
+int *n, c;
+c = 23;
+n = &c;
+reset_to_98(n);
+printf("%d", *n);
+}
