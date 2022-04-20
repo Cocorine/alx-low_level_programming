@@ -4,7 +4,7 @@
  * _atoi - converts a string to an integer
  * @s: string to be converted
  *
- * Description - resets the value of *n to 98
+ * Description - converts a string to an integer
  * Return: the int converted from the string
  */
 int _atoi(char *s)
