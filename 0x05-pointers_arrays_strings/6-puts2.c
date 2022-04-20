@@ -4,7 +4,7 @@
  * puts2 - prints a string, followed by a new line,
  * @str: pointer to the string to print
  *
- * Description: swap_int swaps the value of *a and *b
+ * Description: prints a string, followed by a new line,
  */
 void puts2(char *str)
 {
