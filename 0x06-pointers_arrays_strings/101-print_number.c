@@ -2,7 +2,7 @@
 /**
  * print_number - prints a number
  * @n: Input number
- * 
+ *
  * Description - Prints a number
  */
 
